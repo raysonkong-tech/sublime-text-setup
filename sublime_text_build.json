@@ -1,6 +1,8 @@
 //Example:  Add Node to build system 
+// $which node
+// copy that path of your node and paste below
 
 {
-	"cmd": ["/Users/raysonkong/.nvm/versions/node/v12.8.1/bin/node", "$file"],
+	"cmd": ["path_to_your_node", "$file"],
 	"selector": "source.js"
 }
